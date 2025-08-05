@@ -47,6 +47,7 @@ export default function Navbar() {
             </ul>
           </nav>
 
+
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <NavLink
@@ -63,6 +64,7 @@ export default function Navbar() {
                 Register
               </NavLink>
             </div>
+            
 
             <button className="block rounded-sm bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
               <span className="sr-only">Toggle menu</span>
